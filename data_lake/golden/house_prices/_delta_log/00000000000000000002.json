@@ -1,0 +1,5 @@
+{"commitInfo":{"timestamp":1657346021355,"operation":"WRITE","operationParameters":{"mode":"Overwrite","partitionBy":"[\"city\"]","predicate":"city=='geneve'"},"readVersion":1,"isBlindAppend":false,"operationMetrics":{"numFiles":"4","numOutputBytes":"19433","numOutputRows":"78"}}}
+{"add":{"path":"city=geneve/part-00000-112d26c4-17ca-4b6f-b7c3-52b69c0f1105.c000.snappy.parquet","partitionValues":{"city":"geneve"},"size":5171,"modificationTime":1657346020513,"dataChange":true}}
+{"add":{"path":"city=geneve/part-00001-e3ed1bdf-3cfb-4ebd-abb0-e61ae03eeac8.c000.snappy.parquet","partitionValues":{"city":"geneve"},"size":4800,"modificationTime":1657346020514,"dataChange":true}}
+{"add":{"path":"city=geneve/part-00002-c3059091-aebb-418e-b24b-2479777b73ef.c000.snappy.parquet","partitionValues":{"city":"geneve"},"size":4808,"modificationTime":1657346020529,"dataChange":true}}
+{"add":{"path":"city=geneve/part-00003-f52bc616-16a6-45ac-982e-20134a6d99a4.c000.snappy.parquet","partitionValues":{"city":"geneve"},"size":4654,"modificationTime":1657346020515,"dataChange":true}}

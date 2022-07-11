@@ -1,0 +1,5 @@
+{"commitInfo":{"timestamp":1657346085511,"operation":"WRITE","operationParameters":{"mode":"Overwrite","partitionBy":"[\"city\"]","predicate":"city=='zuerich'"},"readVersion":2,"isBlindAppend":false,"operationMetrics":{"numFiles":"4","numOutputBytes":"16893","numOutputRows":"10"}}}
+{"add":{"path":"city=zuerich/part-00000-b42800df-623a-4199-85ed-d6f0ed67ab25.c000.snappy.parquet","partitionValues":{"city":"zuerich"},"size":4307,"modificationTime":1657346084664,"dataChange":true}}
+{"add":{"path":"city=zuerich/part-00001-b6f3c912-653a-4d6c-bcf6-1a2b9932787d.c000.snappy.parquet","partitionValues":{"city":"zuerich"},"size":4303,"modificationTime":1657346084674,"dataChange":true}}
+{"add":{"path":"city=zuerich/part-00002-d5d61cad-ad6d-480c-83d2-15f4542998c4.c000.snappy.parquet","partitionValues":{"city":"zuerich"},"size":4275,"modificationTime":1657346084667,"dataChange":true}}
+{"add":{"path":"city=zuerich/part-00003-793c5860-3fe1-44b6-bd11-613334faa436.c000.snappy.parquet","partitionValues":{"city":"zuerich"},"size":4008,"modificationTime":1657346084664,"dataChange":true}}

@@ -1,0 +1,12 @@
+{"commitInfo":{"timestamp":1657386770807,"operation":"WRITE","operationParameters":{"mode":"Overwrite","partitionBy":"[\"city\"]","predicate":"city=='basel'"},"readVersion":4,"isBlindAppend":false,"operationMetrics":{"numFiles":"7","numOutputBytes":"52075","numOutputRows":"820"}}}
+{"add":{"path":"city=basel/part-00000-65c8fb53-71ad-432c-8c22-bf30815e29e5.c000.snappy.parquet","partitionValues":{"city":"basel"},"size":10462,"modificationTime":1657386768693,"dataChange":true}}
+{"add":{"path":"city=basel/part-00001-12f37160-b66a-465b-8c80-e3f944377d34.c000.snappy.parquet","partitionValues":{"city":"basel"},"size":8583,"modificationTime":1657386768656,"dataChange":true}}
+{"add":{"path":"city=basel/part-00002-1f93d99b-2af9-4bf8-b812-18d180cd774f.c000.snappy.parquet","partitionValues":{"city":"basel"},"size":8264,"modificationTime":1657386768691,"dataChange":true}}
+{"add":{"path":"city=basel/part-00003-80df8d08-1ad2-443a-a078-081be85411a3.c000.snappy.parquet","partitionValues":{"city":"basel"},"size":7358,"modificationTime":1657386768659,"dataChange":true}}
+{"add":{"path":"city=basel/part-00004-2644b4d3-2105-46f6-9b37-d922e391a50f.c000.snappy.parquet","partitionValues":{"city":"basel"},"size":7030,"modificationTime":1657386769683,"dataChange":true}}
+{"add":{"path":"city=basel/part-00005-fe2e92a9-8e0e-47e6-ae16-90df454147ba.c000.snappy.parquet","partitionValues":{"city":"basel"},"size":6191,"modificationTime":1657386769794,"dataChange":true}}
+{"add":{"path":"city=basel/part-00006-ed8ef54d-957f-42aa-86e7-1933827db8fa.c000.snappy.parquet","partitionValues":{"city":"basel"},"size":4187,"modificationTime":1657386769160,"dataChange":true}}
+{"remove":{"path":"city=basel/part-00002-919f5409-da87-428f-b4ab-880a34e5e14f.c000.snappy.parquet","deletionTimestamp":1657386770806,"dataChange":true,"extendedFileMetadata":true,"partitionValues":{"city":"basel"},"size":4420}}
+{"remove":{"path":"city=basel/part-00003-2b4fed0b-a44f-439d-94a1-722e03c6bb8c.c000.snappy.parquet","deletionTimestamp":1657386770806,"dataChange":true,"extendedFileMetadata":true,"partitionValues":{"city":"basel"},"size":4276}}
+{"remove":{"path":"city=basel/part-00001-cfcf0742-a983-4256-bf9a-7db12d756a1a.c000.snappy.parquet","deletionTimestamp":1657386770806,"dataChange":true,"extendedFileMetadata":true,"partitionValues":{"city":"basel"},"size":4399}}
+{"remove":{"path":"city=basel/part-00000-4c6e736c-7530-4b01-a038-cd4fe25bf3fc.c000.snappy.parquet","deletionTimestamp":1657386770806,"dataChange":true,"extendedFileMetadata":true,"partitionValues":{"city":"basel"},"size":4418}}

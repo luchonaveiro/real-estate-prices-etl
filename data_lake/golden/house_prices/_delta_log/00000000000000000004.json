@@ -1,0 +1,11 @@
+{"commitInfo":{"timestamp":1657386719958,"operation":"WRITE","operationParameters":{"mode":"Overwrite","partitionBy":"[\"city\"]","predicate":"city=='bern'"},"readVersion":3,"isBlindAppend":false,"operationMetrics":{"numFiles":"6","numOutputBytes":"41555","numOutputRows":"581"}}}
+{"add":{"path":"city=bern/part-00000-5acc76c1-5682-4765-b9ea-ab0a307bcea1.c000.snappy.parquet","partitionValues":{"city":"bern"},"size":8877,"modificationTime":1657386718465,"dataChange":true}}
+{"add":{"path":"city=bern/part-00001-b8322e6b-4821-43f8-a03e-24fc72c72c08.c000.snappy.parquet","partitionValues":{"city":"bern"},"size":7441,"modificationTime":1657386718463,"dataChange":true}}
+{"add":{"path":"city=bern/part-00002-4373ccc9-37c4-4566-b35b-fdc1ab9c502f.c000.snappy.parquet","partitionValues":{"city":"bern"},"size":7046,"modificationTime":1657386718463,"dataChange":true}}
+{"add":{"path":"city=bern/part-00003-a0c72fa4-4793-49ad-a169-05b753376370.c000.snappy.parquet","partitionValues":{"city":"bern"},"size":6749,"modificationTime":1657386718463,"dataChange":true}}
+{"add":{"path":"city=bern/part-00004-83f5521d-5763-4bb0-aa9d-d12a50ef83a2.c000.snappy.parquet","partitionValues":{"city":"bern"},"size":6136,"modificationTime":1657386719125,"dataChange":true}}
+{"add":{"path":"city=bern/part-00005-7adc2390-1439-492a-b3e2-0a0353e7828b.c000.snappy.parquet","partitionValues":{"city":"bern"},"size":5306,"modificationTime":1657386719032,"dataChange":true}}
+{"remove":{"path":"city=bern/part-00000-11ae8c1c-e3fe-4ad0-b8e8-062882571f5c.c000.snappy.parquet","deletionTimestamp":1657386719914,"dataChange":true,"extendedFileMetadata":true,"partitionValues":{"city":"bern"},"size":4393}}
+{"remove":{"path":"city=bern/part-00001-20c85a60-86ee-4ca7-9b7c-05da0969fc6c.c000.snappy.parquet","deletionTimestamp":1657386719914,"dataChange":true,"extendedFileMetadata":true,"partitionValues":{"city":"bern"},"size":4400}}
+{"remove":{"path":"city=bern/part-00003-5a27ae03-5d08-4edd-90c6-88d70b5c7f25.c000.snappy.parquet","deletionTimestamp":1657386719914,"dataChange":true,"extendedFileMetadata":true,"partitionValues":{"city":"bern"},"size":4187}}
+{"remove":{"path":"city=bern/part-00002-6fbc94cf-d92c-402e-91bb-415879f59a5a.c000.snappy.parquet","deletionTimestamp":1657386719914,"dataChange":true,"extendedFileMetadata":true,"partitionValues":{"city":"bern"},"size":4368}}

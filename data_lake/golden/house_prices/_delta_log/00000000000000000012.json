@@ -1,0 +1,5 @@
+{"commitInfo":{"timestamp":1657409169233,"operation":"WRITE","operationParameters":{"mode":"Overwrite","partitionBy":"[\"city\"]","predicate":"city=='locarno'"},"readVersion":11,"isBlindAppend":false,"operationMetrics":{"numFiles":"4","numOutputBytes":"18568","numOutputRows":"48"}}}
+{"add":{"path":"city=locarno/part-00000-af900a89-3ede-439d-8806-a302887bfba1.c000.snappy.parquet","partitionValues":{"city":"locarno"},"size":4755,"modificationTime":1657409165760,"dataChange":true}}
+{"add":{"path":"city=locarno/part-00001-805a3d5f-94db-45f6-8a60-13735cb323c8.c000.snappy.parquet","partitionValues":{"city":"locarno"},"size":4682,"modificationTime":1657409165797,"dataChange":true}}
+{"add":{"path":"city=locarno/part-00002-982d96d7-9066-410e-b006-82261133337b.c000.snappy.parquet","partitionValues":{"city":"locarno"},"size":4559,"modificationTime":1657409165773,"dataChange":true}}
+{"add":{"path":"city=locarno/part-00003-083667df-764a-4bf5-93bf-9081472ff41d.c000.snappy.parquet","partitionValues":{"city":"locarno"},"size":4572,"modificationTime":1657409165758,"dataChange":true}}

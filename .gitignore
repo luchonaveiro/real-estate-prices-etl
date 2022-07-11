@@ -1,0 +1,6 @@
+*DS_Store
+logs
+plugins
+*.ipynb_checkpoints
+*__pycache__
+docker_config

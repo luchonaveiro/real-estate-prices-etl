@@ -147,13 +147,13 @@ So, with `Delta` tables, we have the:
 
 - ability to rollback in case of bad writes
 
-- ability to evolve the table schema: we can write data with new columns, withput havin to first adapt the schema
+- ability to evolve the table schema: we can write data with new columns, without havin to first adapt the schema
 
 - Full DML Support: `Delta Lake` supports standard DML including `UPDATE`, `DELETE` and `MERGE INTO` providing developers more controls to manage their big datasets.
 
 As we can see, we have full flexibility on a Big Data environment.
 
-A beautiful feature of `Delta` tables is that on of `MERGE INTO`. With that command is super easy to make `UPSERTS` on the table. Here is how we use it on this project, to update already present hpuses IDs on our table, and insert all the new values:
+A beautiful feature of `Delta` tables is that on of `MERGE INTO`. With that command is super easy to make `UPSERTS` on the table. Here is how we use it on this project, to update already present houses IDs on our table, and insert all the new values:
 
 ```
 (

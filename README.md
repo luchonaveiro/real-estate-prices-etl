@@ -120,7 +120,7 @@ papermill /opt/notebooks/input/get_houses_data.ipynb /opt/notebooks/output/get_h
 So, we are executing `get_houses_data.ipynb` with three parameters values:
 - `date`: `2022-07-09`
 - `city`: `bern`
-- `radius`: `40
+- `radius`: `40`
 
 It is quite clear how we can change the `city` value, and execute the exact same notebook with a different parameter.
 
@@ -152,6 +152,20 @@ So, with `Delta` tables, we have the:
 - Full DML Support: `Delta Lake` supports standard DML including `UPDATE`, `DELETE` and `MERGE INTO` providing developers more controls to manage their big datasets.
 
 As we can see, we have full flexibility on a Big Data environment.
+
+A beautiful feature of `Delta` tables is that on of `MERGE INTO`. With that command is super easy to make `UPSERTS` on the table. Here is how we use it on this project, to update already present hpuses IDs on our table, and insert all the new values:
+
+```
+(
+    silver_table
+    .alias("silver_table")
+    .merge(daily_data.alias("daily_data"),
+           "silver_table.property_id=daily_data.property_id and silver_table.city=daily_data.city")
+    .whenMatchedUpdateAll()
+    .whenNotMatchedInsertAll()
+    .execute()
+)
+```
 
 `Delta` also has a convention on how to structure the data lake. It recommends splitting the directory in:
 - **bronze**: Read raw data from Parquet files using Spark, save data in Delta Lake Bronze table

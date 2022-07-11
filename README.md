@@ -6,7 +6,7 @@
 [![Generic badge](https://img.shields.io/badge/Delta-1.0.0-blue.svg)](https://delta.io/)
 [![Generic badge](https://img.shields.io/badge/Jupyter_Notebook-6.4.12-blue.svg)](https://jupyter.org/)
 [![Generic badge](https://img.shields.io/badge/Papermill-2.3.4-blue.svg)](https://papermill.readthedocs.io/en/latest/)
-[![Generic badge](https://img.shields.io/badge/Apache_Druid-0.23.0.-blue.svg)](https://druid.apache.org/)
+[![Generic badge](https://img.shields.io/badge/Apache_Druid-0.23.0-blue.svg)](https://druid.apache.org/)
 [![Generic badge](https://img.shields.io/badge/Apache_Superset-1.5.0-blue.svg)](https://superset.apache.org/)
 [![Generic badge](https://img.shields.io/badge/Docker-20.10.6-blue.svg)](https://www.docker.com/)
 
